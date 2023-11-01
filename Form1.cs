@@ -105,7 +105,7 @@ namespace XandOs
 
                 if (CheckForWinner("X"))
                 {
-                    MessageBox.Show("You Win Bands Cause youre the Best!!");
+                    MessageBox.Show("You WIN!!");
                     ResetGame();
                     return;
                 }
@@ -116,7 +116,7 @@ namespace XandOs
                 ComputerMove();
                 if (CheckForWinner("O"))
                 {
-                    MessageBox.Show("AI Wins cause Bands Coded it so its Awesome and Smart");
+                    MessageBox.Show("AI WINS !!!");
                     ResetGame();
                     return;
                 }
